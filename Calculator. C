@@ -1,0 +1,1 @@
+#include int main() { float num1, num2, result; printf("Simple Calculator\n"); printf("Enter first number: "); scanf("%f",& );printf("Enter second number: "); scanf("%f",& );result!(%f , result); return 0; }

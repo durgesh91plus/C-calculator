@@ -10,11 +10,10 @@ printf("Enter operation (+, -, *, /): ");
 scanf(" %c",&operation);
 printf("Enter second number: ");
 scanf("%f",&num2);
-if else block: if (operation == '+') result equal num1 plus num2,
+if else block: if (operation == '+') result=num1+num2;
 printf("Result: %f\n", result); 
-else if (operation == '-') result  if num2 !=0,result equal num1/num2;
+else if (operation == '-') result  if num2 !=0,result=num1/num2;
 printf("Cannot divide by zero.\n") ;
 elseprintf("Invalid operation.\n");
 return 0;
 }
- 

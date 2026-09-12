@@ -13,11 +13,14 @@ scanf("%f",&num2);
 if (operation == '+'){
 result=num1+num2;
 printf("Result: %f\n", result); 
-else if (operation == '-') result{
+else if (operation == '-'){
+result=num1-num2;
+printf("Result: %.2f \n", result);
+} else if (operation == '/') {
  if (num2 !=0){
 result=num1/num2;
-
-printf("Cannot divide by 0.\n") ;
+printf("Result: %.2f\n", result);
+else printf("Cannot divide by 0.\n") ;
 else(printf "Invalid operation.\n"){
 return 0;
 }

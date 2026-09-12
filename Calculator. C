@@ -20,8 +20,7 @@ printf("Result: %.2f \n", result);
  if (num2 !=0){
 result=num1/num2;
 printf("Result: %.2f\n", result);
-else printf("Cannot divide by 0.\n") ;
-else(printf "Invalid operation.\n"){
+}else {
+printf("Cannot divide by 0.\n");
 return 0;
 }
-
